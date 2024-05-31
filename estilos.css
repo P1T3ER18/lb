@@ -1,0 +1,65 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+body{
+    width: 80%;
+    height: auto;
+    border: solid black 2px;
+    border-radius: 10px;
+}
+#cabecera{
+    width: auto;
+    background-color: aliceblue;
+    height: auto;
+    border: solid black 2px;
+    border-radius: 10px;
+    text-align: center;
+    position:sticky;
+    top:0; 
+    
+}
+
+#menu a{
+    text-decoration: underline;
+    color: blue;
+    padding: 12px;
+   
+}
+#menu ul{
+    display: flex;
+    padding: 2px;
+    color: blue;
+    
+}
+#menu li{
+    list-style-type: none;
+    margin: 5px;
+    
+}
+#central{
+    width: auto;
+    width: auto;
+    height: auto;
+    border: solid black 2px;
+    border-radius: 10px;
+    text-align: center;
+}
+#cuerpo{
+    text-align: center;
+
+}
+.porta{
+    float: left;
+}
+.escuadra{
+    position: absolute;
+    top: 280px;
+    right: 150px;
+    border-radius: 50%;
+    border: solid black 3px ;
+}
+#pie{
+    text-align: center;
+    display: flex;
+}
